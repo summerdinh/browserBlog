@@ -1,1 +1,128 @@
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+
+article#items{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+body{
+    background-color: #D4EDE8;
+    color:black;
+}
+
+article#current{
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+footer{
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    text-align: center;
+    margin-top: 10%;
+    padding: 1em 0; 
+}
+
+div.navbar.navbar-inverse.navbar-static-top{
+    margin-bottom: 0;
+    background-color: white;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    position: relative;
+    min-height: 50px;
+    border: 1px solid transparent;
+    z-index: 1000;
+    border-width: 0 0 1px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+div.navbar-inverse.navbar-static-top{
+    padding: 3em;
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:visited {
+    color: black;
+    transition: color .3s;
+    font-weight: bold;
+    margin-right: 1em;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #E63946;
+    transition: color .3s;
+}
+div.navbar-header{
+    margin-left: 8%;
+}
+.navbar-inverse .nav-logo{
+    font-family: 'Aguafina Script', cursive;
+    text-decoration: underline;
+    font-size: 220%;
+    transition: font-size .2s;
+}
+.navbar-inverse a.nav-logo{
+    cursor: default;
+    color:black;
+}
+.navbar-inverse .nav-logo:hover, .navbar-inverse .nav-logo:visited{
+    text-decoration: none;
+    text-decoration: underline;
+    font-size: 250%;
+    transition: font-size .2s;
+}
+
+article#pages{
+    padding: 0;
+    margin:0;
+}
+article#pages section#about{
+    background-color: white;
+    position: relative;
+    display: block;
+    padding: 10%;
+    min-height: 100vh;  
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 600%;
+    text-align: left;
+    line-height: normal;
+    font-family: 'Raleway', sans-serif;
+}
+article#pages section#index{
+    position: relative;
+    display: block;
+    padding: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 300%;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+article#pages section#contact{
+    position: relative;
+    display: block;
+    padding: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 300%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: .125em dashed black;
+}
+article#pages section#contact a:link{
+    color:#E63946;
+}
+article#current{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
